@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/contacto.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="nav_class">
+            <div class="nav_logo">    
+                <a href="../index.html">Luis Vuitton</a>
+             </div>
+            <ul class="lista">
+            
+                <li class="items"><a href="../index.html" class="link">Home</a></li>
+                <li class="items"><a href="productos.html"class="link">Productos</a></li>
+                <li class="items"><a href="ofertas.html"class="link">Ofertas</a></li>
+                <li class="items"><a href="us.html"class="link">Quienes somos</a></li>
+                <li class="items"><a href="contacto.html"class="link">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="form">
+    <div class="formulario">
+    <h1>Formulario de contacto</h1>
+    <form action="">
+            <div>
+                <label for="name">Nombre</label>
+                <input type="text" name="name" placeholder="Nombre">
+            </div>
+            <br>
+            <div>
+                <label for="surmname">Apellido</label>
+                <input type="text" name="surname" placeholder="Apellido">
+            </div>
+            <br>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="mail" placeholder="email" required>
+            </div>
+            <br>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" name="pass" placeholder="Password">
+            </div>
+            <br>
+            <div>
+                <label for="pais">Elije tu pais de nacimiento</label>
+                <select name="pais" id="">
+                    <option value="arg" 
+                    name="pais">Argentina</option>
+                    <option value="cl" 
+                    name="pais">Chile</option>
+                    <option value="br" 
+                    name="pais">Brasil</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="sexo">Genero</label>
+                <input type="radio" name="sexo" id="" value="Hom">Hombre
+                <input type="radio" name="sexo" id="" value="fem">Fememino
+                <input type="radio" name="sexo" id="" value="nobi">No Binario
+            </div>
+            <br>
+            <div>   
+                <input type="submit"    value="Enviar Datos">
+                <input type="reset" value= "Borrar datos" >
+            </div>
+
+
+            <div>
+            <label for="size"> Talle</label>
+            <select name="size" id="">
+            <option value="L" name="size">Large</option>
+            <option value="M" name="size">Medium</option>
+            <option value="S" name="size">Small</option>
+            </select>
+            </div>
+            <div>
+                <input type="submit" value="Enviar">
+            </div>
+
+
+    </form>
+</main>
+</div>
+    <div class="wsp">
+        <img src="../img/iconowsp.jpg" alt="wsp">
+    </div>
+</body>
+</html>
