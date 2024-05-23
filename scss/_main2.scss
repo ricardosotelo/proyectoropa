@@ -1,0 +1,39 @@
+main {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 1fr 0.2fr 1fr ;
+    grid-template-areas: "a1 a1 a1"
+                        "a2 a3 a4 "
+                        "a5 a5 a5"
+                        "a6 a7 a8 ";
+}
+.rem_1{
+    grid-area: a2;
+}
+.rem_2{
+    grid-area: a3;
+}
+.rem_3{
+    grid-area: a4;
+}
+.jeans_1{
+    grid-area: a6;
+
+}
+.jeans_2{
+    grid-area: a7;
+
+}
+.jeans_3{
+    grid-area: a8;
+
+}
+.titulo_1{
+    grid-area:a1 ;
+
+}
+.titulo_2{
+    grid-area: a5;
+
+}

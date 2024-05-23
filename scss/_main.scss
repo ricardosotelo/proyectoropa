@@ -1,0 +1,31 @@
+
+main{
+    background-color: #ace0e0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+     "a1 a2"
+     "a3 a4";
+     column-gap: 5px;
+     row-gap: 10px;
+     
+}
+
+.rem_1{
+    grid-area: a1; 
+    justify-self: center;
+}
+.rem_2{
+    grid-area: a2;   
+    justify-self: center;
+}
+.rem_3{
+    grid-area: a3; 
+    justify-self: center;
+}
+.rem_4{
+    grid-area: a4;
+   
+    justify-self: center;
+}

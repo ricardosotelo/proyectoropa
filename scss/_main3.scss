@@ -1,0 +1,22 @@
+.titulo{ 
+    grid-area: titulo;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: red;
+}
+main{
+  
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr;
+    grid-template-areas: "titulo titulo"
+                           "rem1 rem2" ;
+}
+.rem1{
+ 
+    grid-area: rem1;
+}
+.rem2{
+  
+    grid-area: rem2;
+}

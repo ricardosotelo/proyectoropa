@@ -1,61 +1,38 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
+.footer {
+  font-family: "Sofia Sans Extra Condensed", sans-serif;
+  border: solid 2px black;
+  width: 500px;
+  margin-left: 400px;
+  text-align: center;
+  color: hsl(329, 77%, 42%);
+  background-color: #00ff84;
 }
 
-.nav_class{
-    display: flex;
-    justify-content: space-between;
-    width: 90%;
-    height: 70px;
-    margin: 10px;
-    padding: 10px;
-    background-color: aquamarine;
-
-}
-img{
-    width: 60px;
-    height: 60px;
-    padding: 5px;
+img:hover {
+  opacity: 0.5;
+  border: solid black 2px;
 }
 
-.lista{
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    justify-content: space-between;
-    padding: 10px;
-   
-   
-}
-.items{
-    padding: 10px;
+.wsp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
 }
 
-.link{
-    font-family: "Oswald", sans-serif;
-    text-decoration: none;
+.logo_wsp {
+  width: 60px;
+  height: 60px;
 }
 
-.link:hover{
-    color:orange;
-    background-color: blue;
-    border-radius: 40px;
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
 }
-.wsp{
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
+
+.main {
+  border: solid black 2px;
+  text-align: center;
 }
-.formulario{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 400px;
-    border: solid black 2px;
-}
-.form{
-    display: flex;
-    justify-content: center;
-}
+
+/*# sourceMappingURL=contacto.css.map */

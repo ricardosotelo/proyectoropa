@@ -1,133 +1,125 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-}
-h1{
-    color: #0000ff;
-    font-family: 'Times New Roman', Times, serif;
-}
-.lista{
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    justify-content: space-between;
-    padding: 10px;
-   
-   
-}
-.items{
-    padding: 10px;
+main {
+  background-color: #ace0e0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "a1 a2" "a3 a4";
+  column-gap: 5px;
+  row-gap: 10px;
 }
 
-.link{
-    font-family: "Oswald", sans-serif;
-    text-decoration: none;
+.rem_1 {
+  grid-area: a1;
+  justify-self: center;
 }
 
-.link:hover{
-    color:orange;
-    background-color: blue;
-    border-radius: 40px;
-}
-img:hover{
-    opacity: 0.5;
-   border: solid black 2px;
+.rem_2 {
+  grid-area: a2;
+  justify-self: center;
 }
 
+.rem_3 {
+  grid-area: a3;
+  justify-self: center;
+}
 
+.rem_4 {
+  grid-area: a4;
+  justify-self: center;
+}
 
-.footer{
-    font-family: "Sofia Sans Extra Condensed", sans-serif;
-    border: solid 2px black;
-    width: 500px;
-   margin-left: 400px;
+.footer {
+  font-family: "Sofia Sans Extra Condensed", sans-serif;
+  border: solid 2px black;
+  width: 500px;
+  margin-left: 400px;
+  text-align: center;
+  color: hsl(329, 77%, 42%);
+  background-color: #00ff84;
 }
-.titulo{
-    display: flex;
-    justify-content: center;
-    font-family: 'Times New Roman', Times, serif;
-    margin-left: 10px;
-    color: blue;
-    font-size: 2rem;
-}
-.wsp{
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-}
-.logo_wsp{
-    width: 60px;
-    height: 60px;
 
+.wsp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
 }
-.carrusel{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    
+
+.logo_wsp {
+  width: 60px;
+  height: 60px;
 }
-main{
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #0000ff;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.lista {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.items {
+  padding: 10px;
+}
+
+.link {
+  font-family: "Oswald", sans-serif;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: orange;
+  background-color: blue;
+  border-radius: 40px;
+}
+
+img:hover {
+  opacity: 0.5;
+  border: solid black 2px;
+}
+
+.carrusel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 480px) {
+  main {
     background-color: #ace0e0;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas:
-     "a1 a2"
-     "a3 a4";
-     column-gap: 5px;
-     row-gap: 10px;
-     
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "a1" "a2" "a3" "a4";
+    column-gap: 5px;
+    row-gap: 10px;
+  }
+  .footer {
+    font-family: "Sofia Sans Extra Condensed", sans-serif;
+    border: solid 2px black;
+  }
+}
+@media screen and (max-width: 768px) {
+  main {
+    background-color: rgb(43, 134, 186);
+  }
+}
+h2 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  background-color: #ace0e0;
 }
 
-.rem_1{
-    grid-area: a1; 
-    justify-self: center;
-}
-.rem_2{
-    grid-area: a2;   
-    justify-self: center;
-}
-.rem_3{
-    grid-area: a3; 
-    justify-self: center;
-}
-.rem_4{
-    grid-area: a4;
-   
-    justify-self: center;
-}
-
-@media screen and (max-width:480px) {
-    
-
-    main{
-        background-color: #ace0e0;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        grid-template-areas:
-         "a1"
-         "a2"
-         "a3"
-         "a4";
-
-         column-gap: 5px;
-         row-gap: 10px;
-    }
-    .footer{
-        font-family: "Sofia Sans Extra Condensed", sans-serif;
-        border: solid 2px black;
-      
-}
-}
-
-
-@media screen and (max-width:768px) {
-
-    main{
-        background-color: rgb(43, 134, 186);
-    }
-}
+/*# sourceMappingURL=index.css.map */

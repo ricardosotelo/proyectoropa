@@ -1,108 +1,77 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-}
-
-
-
-
-
-
-
-.link{
-    font-family: "Oswald", sans-serif;
-    text-decoration: none;
-}
-
-.link:hover{
-    color:orange;
-    background-color: blue;
-    border-radius: 40px;
-}
-.wsp{
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-}
-
-.img_wsp{
-    width: 60px;
-    height: 60px;
-}
-h1{
-    color: #0000ff;
-    font-family: 'Times New Roman', Times, serif;
-}
-
 main {
-
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 0.2fr 1fr 0.2fr 1fr ;
-    grid-template-areas: "a1 a1 a1"
-                        "a2 a3 a4 "
-                        "a5 a5 a5"
-                        "a6 a7 a8 ";
-}
-.rem_1{
-    grid-area: a2;
-}
-.rem_2{
-    grid-area: a3;
-}
-.rem_3{
-    grid-area: a4;
-}
-.jeans_1{
-    grid-area: a6;
-
-}
-.jeans_2{
-    grid-area: a7;
-
-}
-.jeans_3{
-    grid-area: a8;
-
-}
-.titulo_1{
-    grid-area:a1 ;
-
-}
-.titulo_2{
-    grid-area: a5;
-
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.2fr 1fr 0.2fr 1fr;
+  grid-template-areas: "a1 a1 a1" "a2 a3 a4 " "a5 a5 a5" "a6 a7 a8 ";
 }
 
-
-@media screen and (max-width:480px) {
-    main {
-        background-color: rgb(175, 83, 83);
-
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 0.5fr 1fr 1fr 1fr 0.5fr 1fr 1fr 1 fr ;
-        grid-template-areas: "a1"
-                            "a2"
-                            "a3"
-                            "a4"
-                            "a5"
-                            "a6"
-                            "a7"
-                            "a8"
-                            
-                            ;
-    }
-
-    h1{
-        color: rgb(85, 149, 204);
-    }
+.rem_1 {
+  grid-area: a2;
 }
 
-
-.footer{
-    font-family:'Times New Roman', Times, serif
-    border: solid 2px black;
-  
+.rem_2 {
+  grid-area: a3;
 }
+
+.rem_3 {
+  grid-area: a4;
+}
+
+.jeans_1 {
+  grid-area: a6;
+}
+
+.jeans_2 {
+  grid-area: a7;
+}
+
+.jeans_3 {
+  grid-area: a8;
+}
+
+.titulo_1 {
+  grid-area: a1;
+}
+
+.titulo_2 {
+  grid-area: a5;
+}
+
+.wsp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.logo_wsp {
+  width: 60px;
+  height: 60px;
+}
+
+img:hover {
+  opacity: 0.5;
+  border: solid black 2px;
+}
+
+.wsp {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.logo_wsp {
+  width: 60px;
+  height: 60px;
+}
+
+.footer {
+  font-family: "Sofia Sans Extra Condensed", sans-serif;
+  border: solid 2px black;
+  width: 500px;
+  margin-left: 400px;
+  text-align: center;
+  color: hsl(329, 77%, 42%);
+  background-color: #00ff84;
+}
+
+/*# sourceMappingURL=productos.css.map */
